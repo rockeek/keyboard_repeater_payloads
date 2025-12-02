@@ -1,0 +1,11 @@
+GUI r
+DELAY 500
+
+REM $mail = (new-object -comobject Outlook.Application).createitem(0)
+REM $mail.to = "bla@example567.org"
+REM $mail.subject = "Surprise surprenante"
+REM $mail.body = "Snickers pour Florian!"
+REM $mail.send()
+
+STRING powershell -c "(new-object -comobject outlook.application).createitem(0)|%{$_.to='bla@example567.org';$_.subject='Surprise surprenante';$_.body='Snickers pour Florian!';$_.send()}"
+ENTER

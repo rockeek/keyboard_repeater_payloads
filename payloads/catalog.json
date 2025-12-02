@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-12-02",
+  "payloads": [
+    {
+      "id": "send_email",
+      "name": "Send Email via Outlook",
+      "description": "Opens Outlook and sends an email via PowerShell",
+      "author": "rockeek",
+      "tags": ["email", "outlook", "powershell", "windows"],
+      "filename": "send_email.dd",
+      "url": "https://gitlab.com/rockeek/keyboard_repeater_payloads/-/raw/main/payloads/send_email.dd",
+      "estimatedBytes": 180,
+      "estimatedDuration": "3s",
+      "targetOS": "Windows"
+    }
+  ]
+}
