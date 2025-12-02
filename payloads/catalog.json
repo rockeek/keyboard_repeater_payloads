@@ -9,7 +9,7 @@
       "author": "rockeek",
       "tags": ["email", "outlook", "powershell", "windows"],
       "filename": "send_email.dd",
-      "url": "https://gitlab.com/rockeek/keyboard_repeater_payloads/-/raw/main/payloads/send_email.dd",
+      "url": "https://raw.githubusercontent.com/rockeek/keyboard_repeater_payloads/refs/heads/main/payloads/send_email.dd",
       "estimatedBytes": 180,
       "estimatedDuration": "3s",
       "targetOS": "Windows"
