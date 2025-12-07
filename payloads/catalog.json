@@ -13,6 +13,18 @@
       "estimatedBytes": 180,
       "estimatedDuration": "3s",
       "targetOS": "Windows"
+    },
+    {
+      "id": "write_text",
+      "name": "Write Custom Text in Notepad",
+      "description": "Opens Notepad and writes user-provided text and number using DuckyScript variables.",
+      "author": "rockeek",
+      "tags": ["notepad", "text", "custom", "windows", "variables"],
+      "filename": "write_text.dd",
+      "url": "https://raw.githubusercontent.com/rockeek/keyboard_repeater_payloads/refs/heads/main/payloads/write_text.dd",
+      "estimatedBytes": 120,
+      "estimatedDuration": "2s",
+      "targetOS": "Windows"
     }
   ]
 }
