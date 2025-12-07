@@ -4,7 +4,7 @@ DELAY 400
 STRING notepad
 ENTER
 DELAY 400
-REM {{VAR:MY_TEXT}}
-STRING {{VAR:MY_TEXT|Enter a text}} {{VAR:MY_NUMBER|Enter a number}}
+REM {{VAR:MY_TEXT|Enter a text}}
+STRING {{VAR:MY_TEXT}} {{VAR:MY_NUMBER|Enter a number}}
 ENTER
 STRING {{VAR:MY_TEXT}}_{{VAR:MY_NUMBER}}
